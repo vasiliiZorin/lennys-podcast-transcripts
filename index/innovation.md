@@ -11,3 +11,6 @@ Episodes discussing **innovation**:
 - [Shweta Shriva](../episodes/shweta-shriva/transcript.md)
 - [Tanguy Crusson](../episodes/tanguy-crusson/transcript.md)
 - [Varun Parmar](../episodes/varun-parmar/transcript.md)
+- [David Placek](../episodes/david-placek/transcript.md)
+- [Fei Fei](../episodes/fei-fei/transcript.md)
+- [Gustaf Alstromer](../episodes/gustaf-alstromer/transcript.md)

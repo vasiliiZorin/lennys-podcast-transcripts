@@ -20,3 +20,6 @@ Episodes discussing **venture capital**:
 - [Todd Jackson](../episodes/todd-jackson/transcript.md)
 - [Tom Conrad](../episodes/tom-conrad/transcript.md)
 - [Uri Levine](../episodes/uri-levine/transcript.md)
+- [Geoffrey Moore](../episodes/geoffrey-moore/transcript.md)
+- [Gustaf Alstromer](../episodes/gustaf-alstromer/transcript.md)
+- [Madhavan Ramanujam](../episodes/madhavan-ramanujam/transcript.md)

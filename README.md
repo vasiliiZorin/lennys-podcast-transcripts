@@ -10,8 +10,6 @@ Lenny's Podcast features interviews with world-class product leaders and growth 
 
 **Browse by topic:** Start with [index/README.md](index/README.md) to explore episodes by topic.
 
-**Browse all episodes:** See [index/episodes.md](index/episodes.md) for a complete table with AI-generated summaries.
-
 **Search transcripts:**
 ```bash
 grep -r "product-market fit" episodes/
@@ -25,10 +23,9 @@ grep -r "product-market fit" episodes/
 │       └── transcript.md
 ├── index/                       # AI-generated topic index
 │   ├── README.md                # Main entry point
-│   ├── episodes.md              # Full episodes table
 │   ├── product-management.md    # Episodes about product management
 │   ├── leadership.md            # Episodes about leadership
-│   └── ...                      # 50 topic files
+│   └── ...                      # 50+ topic files
 └── scripts/
     └── build-index.sh           # Script to regenerate index
 ```
@@ -52,7 +49,7 @@ Each episode has its own folder named after the guest(s), containing a `transcri
 
 ## Topic Index
 
-The `index/` folder contains AI-generated summaries and keywords for each episode, organized by topic:
+The `index/` folder contains AI-generated keyword tags for each episode, organized by topic:
 
 | Topic | Description |
 |-------|-------------|
@@ -71,7 +68,7 @@ The index is generated using Claude CLI. To regenerate:
 ./scripts/build-index.sh
 ```
 
-This processes all transcripts through Claude to generate summaries and keywords. Takes approximately 45 minutes for all 269 episodes. The script supports resuming if interrupted.
+This processes transcripts through Claude to generate keyword tags. The script is idempotent - it skips episodes already present in keyword files, so it can be run multiple times safely.
 
 ## Usage with AI
 

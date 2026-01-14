@@ -14,7 +14,6 @@ This is a static content archive containing 269 episode transcripts from Lenny's
 │       └── transcript.md    # YAML frontmatter + transcript content
 ├── index/
 │   ├── README.md            # Main entry point with topic links
-│   ├── episodes.md          # Full episodes table with summaries
 │   └── {topic}.md           # Individual topic files (e.g., product-management.md)
 └── scripts/
     └── build-index.sh       # Script to regenerate the index
@@ -28,9 +27,8 @@ Each transcript.md contains:
 
 ## Index
 
-The `index/` folder contains AI-generated summaries and keyword tags for each episode:
-- `episodes.md` - Table of all episodes with summaries and keywords
-- Topic files (e.g., `product-management.md`) - Episodes grouped by topic
+The `index/` folder contains AI-generated keyword tags for each episode:
+- Topic files (e.g., `product-management.md`) - Episodes grouped by topic keyword
 
 ## Rebuilding the Index
 
@@ -38,4 +36,4 @@ The `index/` folder contains AI-generated summaries and keyword tags for each ep
 ./scripts/build-index.sh
 ```
 
-This calls Claude CLI for each episode to generate summaries and keywords. Takes ~45 minutes for all episodes. Supports resume if interrupted.
+This calls Claude CLI for each episode to generate keywords. The script is idempotent - it skips episodes already present in keyword files, so it can be run multiple times safely.

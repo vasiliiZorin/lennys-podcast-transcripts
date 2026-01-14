@@ -23,3 +23,5 @@ Episodes discussing **product-led growth**:
 - [Varun Parmar](../episodes/varun-parmar/transcript.md)
 - [Yamashata](../episodes/yamashata/transcript.md)
 - [Zoelle Egner](../episodes/zoelle-egner/transcript.md)
+- [Hila Qu](../episodes/hila-qu/transcript.md)
+- [Nilan Peiris](../episodes/nilan-peiris/transcript.md)
